@@ -1,0 +1,329 @@
+@media only screen and (max-width:600px) {
+/*===========nav bar==========*/
+.res{
+    display: block;
+}
+.navbar ul{
+background:var(--primary-color);
+position: fixed;
+top: 0;
+right: -200px;
+width: 200px;
+height: 180vh;
+padding-top: 50px;
+transition: right 0.5s ease;
+z-index: 9999;
+
+
+}
+.navbar ul li{
+    display: block;
+    margin: 25px;
+}
+.navbar ul li a{
+    color: #fff;
+}
+.navbar ul li a:hover{
+    color: var(--text-color);
+}
+.navbar ul .res{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+}
+body{
+    width: 100vw;
+    height: 100%;
+   border: none;
+}
+.home{
+    width:100%;
+    height: 100vh;
+    background-image: url(img/homepg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.home .text h1{
+font-size: 50px;
+}
+/*about*/
+.about{
+    width:100%;
+    height: 100vh;
+    background-image: url(img/secdpg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+background-position: center;
+
+}
+.about .text{
+
+     display: flex;
+    flex-direction: column;
+}
+.about img{
+    display: none;
+}
+.about .notes{
+    width: 100%;
+    height: 100%;
+}
+.notes h1{
+    font-size: 40px;
+}
+.mem{  width:100%;
+    height: 170vh;
+}
+.mem .text{
+    width: 100%;
+    height: 100%;
+}
+.values{
+    height: 100%;
+    width: 100%;
+    display: block;
+    text-align: center;
+    
+}
+.core{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.values h1{
+    font-size: 40px;
+}
+.bers{
+    width:100%;
+    height:250vh;
+}
+
+.bers h1{
+    font-size: 30px;
+    text-align: center;
+}
+.bers .text{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.bers.text h1{
+    font-size: 50px;
+    }
+.text .parent{
+
+display:flex;
+flex-direction: column;
+width: 100%;
+margin-top: 34px;
+
+}
+.child{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    text-align: center;
+    gap: 15px;
+}
+
+.work{
+    height: 250vh;
+}
+
+.img{
+    width: 100%;
+}
+
+.contact{
+    height: 180vh;
+}
+
+.con-1 p{
+    font-size: 10px;
+}
+.con-1 a{
+    font-size: 10px;
+}
+
+.text .left
+{
+    width: 100%;
+    height: 50%;
+}
+.text .right{
+    width: 100%;
+    height: 50%;
+}
+
+.vol{
+    height: 150vh;
+}
+.donate{
+    height: 160vh;
+}
+.donate .text .dot{
+    height: 100%;
+    width: 100%;
+}
+
+.donate .text .dot .submit-btn{
+    margin-top: 2px;
+}
+}
+
+/*==========max width 900px==========*/
+@media only screen and (min-width:601px)and (max-width:920px){
+    .res{
+        display: block;
+    }
+    .navbar ul{
+    background:var(--primary-color);
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 180vh;
+    padding-top: 50px;
+    transition: right 0.5s ease;
+    z-index: 9999;
+    
+    
+    }
+    .navbar ul li{
+        display: block;
+        margin: 25px;
+    }
+    .navbar ul li a{
+        color: #fff;
+    }
+    .navbar ul li a:hover{
+        color: var(--text-color);
+    }
+    .navbar ul .res{
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+    .home{
+        width:100%;
+        height: 100vh;
+        background-image: url(img/homepg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .home h1{
+        text-align: center;
+    }
+
+    .about{
+        width:100%;
+        height: 100vh;
+        background-image: url(img/secdpg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    background-position: center;
+    
+    }
+    .about .text{
+    
+         display: flex;
+        flex-direction: column;
+    }
+    .about img{
+        display: none;
+    }
+    .about .notes{
+        width: 100%;
+        height: 100%;
+    }
+    .notes h1{
+        font-size: 80px;
+    }
+    .notes p{
+        font-size: 20px;
+    }
+    .btn2{
+        font-size: 20px;
+    }
+
+    .bers{
+        width:100%;
+        height:220vh;
+    }
+    .pic{
+    height: 200px;
+    width: 200px;
+    }
+    .bers h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .bers .text{
+        height: 100%;
+        width: 100%;
+        display: block;
+    }
+    .text .parent{
+    
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    
+    }
+    .child{
+        width: 50%;
+        height: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        text-align: center;
+        gap: 15px;
+    }
+    
+    .img{
+        width: 100%;
+    }
+
+    .vol{
+        height: 150vh;
+    }
+
+    .text .left
+    {
+        width: 100%;
+        height: 50%;
+    }
+    .text .right{
+        width: 100%;
+        height: 50%;
+    }
+
+    .donate .text .dot{
+        height: 50%;
+        width: 100%;
+    }
+    
+    .donate .text .dot .submit-btn{
+        margin-top: 2px;
+    }
+}
