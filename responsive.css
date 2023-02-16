@@ -1,4 +1,4 @@
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:900px) {
 /*===========nav bar==========*/
 .res{
     display: block;
@@ -183,7 +183,7 @@ margin-top: 34px;
 }
 }
 
-/*==========max width 900px==========*/
+/*==========max width 900px==========
 @media only screen and (min-width:601px)and (max-width:920px){
     .res{
         display: block;
@@ -327,3 +327,4 @@ margin-top: 34px;
         margin-top: 2px;
     }
 }
+*/
